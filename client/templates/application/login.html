@@ -1,0 +1,10 @@
+<template name="loginMenu">
+	<div id="loginCSS"> 
+		<img src="images/home.jpg" class="img-responsive center-block" />
+		{{#if currentUser}}
+		<script>
+			Router.go('mainMenu');
+		</script>
+		{{/if}}
+	</div>
+</template>
